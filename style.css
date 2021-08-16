@@ -1,0 +1,70 @@
+:root{
+  --primary-color : #1E40AF;
+  --secondary-color: #BFDBFE; 
+}
+
+
+*{
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    background-color: var(--secondary-color);
+    text-align: center;
+    border: solid 3px var(--primary-color);
+    font-weight: bold;
+    margin:auto;
+   
+   
+}
+h1{
+  /* color: var(--primary-color); */
+  text-align: center;
+}
+#date-of-birth{
+  margin: auto;
+  padding: 0.5rem 1rem;
+  display: block;
+  width: 70%;
+  border-radius: 0.5rem;
+}
+
+#lucky-number{
+  padding: 0.5rem 1rem;
+  margin: auto;
+  display: block;
+  width: 70%;
+  border-radius: 0.5rem;
+}
+
+label{
+  padding: 0.8rem 1rem;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+#check-button{
+    font-size: large;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    display: block;
+    margin: 1rem auto 0;
+    border: none;   
+    border-radius: 0.5rem;
+}
+
+#output-box{
+  padding: 0.8rem 1rem;
+  margin: auto;
+  display: block;
+  text-align: center;
+  font-style: italic;
+  font-size: large;
+}
+
